@@ -1,5 +1,9 @@
 // declare your functions here...
 function paragraphSelector() {
-  var query = document.querySelectorAll('p');
+  var query = $('p');
   return query;
+}
+
+function lastImageSelector() {
+
 }
